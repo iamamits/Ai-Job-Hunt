@@ -1,0 +1,178 @@
+[
+  {
+    "id": "job-01",
+    "title": "Software Engineering Intern (Summer 2026)",
+    "company": "Stripe",
+    "location": "San Francisco, CA (Hybrid)",
+    "type": "Internship",
+    "department": "Core Infrastructure",
+    "salaryRange": "$58 - $65 / hr",
+    "description": "We are seeking a Software Engineering Intern to join our Core Infrastructure team. You will work on distributed payment processing pipelines, build internal developer tooling, and write clean, resilient code in Go and TypeScript. You'll collaborate directly with senior infrastructure engineers to improve pipeline throughput and latency.",
+    "required_skills": ["Go or Java", "Distributed Systems basics", "TypeScript", "RESTful APIs", "Git & CI/CD", "Linux fundamentals"]
+  },
+  {
+    "id": "job-02",
+    "title": "Full-Stack Developer Intern",
+    "company": "Vercel",
+    "location": "Remote (US/Canada)",
+    "type": "Internship",
+    "department": "Platform Frontend",
+    "salaryRange": "$52 - $60 / hr",
+    "description": "Join Vercel's platform team to build fast, intuitive web applications. You will create responsive user interfaces using Next.js 15, React 19, and Tailwind CSS, while integrating edge functions and Postgres databases. The ideal candidate cares deeply about web vitals, accessibility, and component design systems.",
+    "required_skills": ["Next.js / React", "TypeScript", "Tailwind CSS", "Node.js or Edge runtimes", "SQL / Postgres basics", "Web Performance"]
+  },
+  {
+    "id": "job-03",
+    "title": "AI Systems & Agents Research Intern",
+    "company": "Anthropic",
+    "location": "San Francisco, CA (Onsite)",
+    "type": "Internship",
+    "department": "Model Capabilities",
+    "salaryRange": "$65 - $75 / hr",
+    "description": "Anthropic is looking for an AI Systems intern to build evaluation harnesses and autonomous agent workflows. You will design multi-step prompt chains, tool use benchmarks, and agent orchestration pipelines in Python and TypeScript. You should have hands-on experience experimenting with LLM APIs, embeddings, and structured outputs.",
+    "required_skills": ["Python", "LLM APIs & Prompt Engineering", "Autonomous Agents / Tool Calling", "TypeScript", "Data Evaluation / PyTest", "Vector search / RAG"]
+  },
+  {
+    "id": "job-04",
+    "title": "Frontend Engineering Intern",
+    "company": "Linear",
+    "location": "Remote (Worldwide)",
+    "type": "Internship",
+    "department": "Product Experience",
+    "salaryRange": "$50 - $58 / hr",
+    "description": "Linear builds tools that software teams love using every day. As a Frontend Intern, you will craft keyboard-first, zero-latency user experiences using React, TypeScript, and modern CSS. You will contribute to real-time sync systems, custom canvas renders, and micro-animations.",
+    "required_skills": ["Modern React", "TypeScript", "Complex State Management", "CSS / Micro-interactions", "Keyboard accessibility", "Performance profiling"]
+  },
+  {
+    "id": "job-05",
+    "title": "Backend Engineering Intern",
+    "company": "Datadog",
+    "location": "New York, NY (Hybrid)",
+    "type": "Internship",
+    "department": "Telemetry & Ingestion",
+    "salaryRange": "$55 - $62 / hr",
+    "description": "Work with our Telemetry Ingestion team processing billions of metrics every minute. You will write high-performance Go or Python code, optimize database queries in PostgreSQL, and build observability dashboards. A passion for system internals, memory management, and network protocols is ideal.",
+    "required_skills": ["Go or Python", "PostgreSQL / SQL", "Concurrency & Multithreading", "Docker / Containers", "Microservices architecture", "HTTP & gRPC"]
+  },
+  {
+    "id": "job-06",
+    "title": "Cloud & DevOps Intern",
+    "company": "Cloudflare",
+    "location": "Austin, TX (Hybrid)",
+    "type": "Internship",
+    "department": "Edge Networks",
+    "salaryRange": "$48 - $56 / hr",
+    "description": "Cloudflare is seeking an energetic Cloud & DevOps Intern to automate global edge deployments. You will write Terraform modules, configure GitHub Actions pipelines, and monitor edge reliability with Prometheus and Grafana. Strong command of Bash scripting and Linux system administration is required.",
+    "required_skills": ["Linux / Bash", "Docker & Kubernetes", "Terraform / IaC", "GitHub Actions CI/CD", "Networking (DNS, TLS, BGP)", "Python scripting"]
+  },
+  {
+    "id": "job-07",
+    "title": "Machine Learning Engineer (Co-op)",
+    "company": "Scale AI",
+    "location": "San Francisco, CA (Onsite)",
+    "type": "Co-op",
+    "department": "RLHF & GenAI",
+    "salaryRange": "$60 - $70 / hr",
+    "description": "Scale AI provides data infrastructure for AI. As an ML Co-op, you will work on synthetic data generation pipelines, model fine-tuning (LoRA), and automated evaluation systems for leading frontier models. You will write PyTorch and Hugging Face training scripts and optimize inference latency.",
+    "required_skills": ["PyTorch", "Hugging Face Transformers", "Python (NumPy, Pandas)", "Model fine-tuning", "Data processing pipelines", "Git"]
+  },
+  {
+    "id": "job-08",
+    "title": "Mobile App Developer Intern (React Native)",
+    "company": "Duolingo",
+    "location": "Pittsburgh, PA (Hybrid)",
+    "type": "Internship",
+    "department": "Gamification & Mobile",
+    "salaryRange": "$52 - $58 / hr",
+    "description": "Duolingo is looking for a passionate mobile engineer to help build delightful gamified learning features. You will work with React Native, TypeScript, and native modules (iOS/Android) to deliver buttery-smooth 60fps animations and offline sync capabilities.",
+    "required_skills": ["React Native / React", "TypeScript", "Mobile UI & Animation", "State Management (Zustand/Redux)", "iOS/Android build basics", "REST/GraphQL APIs"]
+  },
+  {
+    "id": "job-09",
+    "title": "Security Engineering Intern",
+    "company": "CrowdStrike",
+    "location": "Sunnyvale, CA (Hybrid)",
+    "type": "Internship",
+    "department": "Cloud Threat Hunting",
+    "salaryRange": "$54 - $64 / hr",
+    "description": "Join the CrowdStrike team to analyze cloud threat telemetry and engineer automated detection rules. You will inspect AWS/GCP audit logs, implement Python threat detection scripts, and evaluate vulnerability scanners against zero-day exploit patterns.",
+    "required_skills": ["Python or Go", "Cloud Security (AWS/GCP/Azure)", "Vulnerability Analysis", "Network Security & Protocols", "Linux command line", "SIEM / Log Analysis"]
+  },
+  {
+    "id": "job-10",
+    "title": "Data Engineering Intern",
+    "company": "Snowflake",
+    "location": "Bellevue, WA (Hybrid)",
+    "type": "Internship",
+    "department": "Data Cloud Operations",
+    "salaryRange": "$56 - $63 / hr",
+    "description": "Help engineer modern data pipelines handling petabyte-scale analytical workloads. You will write SQL queries, Python data transformation jobs, and Apache Airflow DAGs. You will collaborate with BI analysts to design Kimball-style star schemas and optimize query runtimes.",
+    "required_skills": ["Advanced SQL", "Python", "Data Warehousing (Snowflake/BigQuery)", "Apache Airflow / ETL", "Data Modeling", "Docker"]
+  },
+  {
+    "id": "job-11",
+    "title": "UI/UX & Product Design Engineer Intern",
+    "company": "Figma",
+    "location": "San Francisco, CA (Hybrid)",
+    "type": "Internship",
+    "department": "Design Systems",
+    "salaryRange": "$55 - $65 / hr",
+    "description": "Figma is looking for an engineer who bridges the gap between design and production code. You will build accessible, pixel-perfect design system primitives in React, WebGL, and TypeScript. You should have a portfolio displaying taste, typography sensitivity, and precision CSS skills.",
+    "required_skills": ["React", "TypeScript", "Design Systems & Token Architecture", "Figma to Code workflows", "Web Accessibility (WCAG)", "CSS Architecture"]
+  },
+  {
+    "id": "job-12",
+    "title": "Junior Full Stack Engineer (Early Career)",
+    "company": "Notion",
+    "location": "San Francisco, CA (Hybrid)",
+    "type": "Full-time",
+    "department": "Connected Workspace",
+    "salaryRange": "$125k - $145k / yr",
+    "description": "Notion is seeking an Early Career Full Stack Engineer to build features that expand Notion's connected workspace and real-time collaboration. You will work across React, Node.js, and PostgreSQL to deliver high-performance document editing and database block integrations.",
+    "required_skills": ["React / Next.js", "TypeScript", "Node.js", "PostgreSQL", "Real-time sync / WebSockets", "API Design"]
+  },
+  {
+    "id": "job-13",
+    "title": "Quantitative Developer Intern",
+    "company": "Jane Street",
+    "location": "New York, NY (Onsite)",
+    "type": "Internship",
+    "department": "Quantitative Trading Systems",
+    "salaryRange": "$85 - $100 / hr",
+    "description": "Work alongside quantitative traders to design, implement, and optimize real-time algorithmic trading software. We write functional code primarily in OCaml, C++, and Python. Candidates should demonstrate exceptional problem-solving abilities and deep mathematical foundations.",
+    "required_skills": ["C++ or Functional Programming (OCaml/Haskell/Rust)", "Algorithms & Data Structures", "Python", "High Performance / Low Latency concepts", "Probability & Statistics"]
+  },
+  {
+    "id": "job-14",
+    "title": "Embedded Systems & Robotics Intern",
+    "company": "Boston Dynamics",
+    "location": "Waltham, MA (Onsite)",
+    "type": "Internship",
+    "department": "Mobility Controls",
+    "salaryRange": "$45 - $55 / hr",
+    "description": "Develop low-level device drivers and control algorithms for dynamic quadruped and bipedal robotic platforms. You will write modern C++ and ROS 2 nodes, interface with hardware sensors (IMU, LIDAR), and test your code on physical robots in the lab.",
+    "required_skills": ["Modern C++ (17/20)", "ROS / ROS 2", "Linux / Embedded systems", "Git", "Kinematics / Control Theory basics", "Sensor interfacing"]
+  },
+  {
+    "id": "job-15",
+    "title": "Developer Relations & Solutions Intern",
+    "company": "Supabase",
+    "location": "Remote (Worldwide)",
+    "type": "Internship",
+    "department": "Developer Experience",
+    "salaryRange": "$45 - $52 / hr",
+    "description": "Love open source, building starter templates, and helping developers succeed? In this role, you will build reference applications showcasing Supabase Auth, Realtime, and Postgres. You will write technical blog posts, sample repositories, and interactive tutorials in Next.js.",
+    "required_skills": ["PostgreSQL / SQL", "Next.js / TypeScript", "Open Source contribution experience", "Technical Writing", "API integration", "Git & GitHub"]
+  },
+  {
+    "id": "job-16",
+    "title": "Platform Engineering Intern",
+    "company": "GitHub",
+    "location": "Remote (US)",
+    "type": "Internship",
+    "department": "Actions Core",
+    "salaryRange": "$50 - $60 / hr",
+    "description": "Join the GitHub Actions Core team to scale workflow runner infrastructure across millions of concurrent jobs. You will diagnose system bottlenecks, optimize container runtimes, and build resilient microservices in Go, Ruby, and TypeScript.",
+    "required_skills": ["Go or Ruby", "TypeScript", "Docker & Kubernetes", "Distributed Systems", "REST & GraphQL APIs", "CI/CD pipelines"]
+  }
+]

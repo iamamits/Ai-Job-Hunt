@@ -1,0 +1,6 @@
+{
+  "name": "Job Hunt Agent — Internship & Job Hunt Autonomous Agent",
+  "description": "An autonomous recruiter and career agent that evaluates fit, ranks job opportunities with reasoning, and crafts tailored cover letters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
