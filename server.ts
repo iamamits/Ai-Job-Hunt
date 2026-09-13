@@ -218,7 +218,7 @@ app.post("/api/agent/run", async (req, res) => {
 // -------------------------------------------------------------
 // Vite Middleware / Static Serving
 // -------------------------------------------------------------
-async function startServer() {
+export async function startServer() {
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
       server: { middlewareMode: true },
@@ -238,4 +238,8 @@ async function startServer() {
   });
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export { app };
