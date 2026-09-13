@@ -1,3 +1,3 @@
-import { app } from "../../server.ts";
+import { runHandler } from "../../src/lib/vercelApi.ts";
 
-export default app;
+export default runHandler;

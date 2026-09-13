@@ -1,3 +1,3 @@
-import { app } from "../../server.ts";
+import { coverLetterHandler } from "../../src/lib/vercelApi.ts";
 
-export default app;
+export default coverLetterHandler;
