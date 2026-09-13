@@ -1,11 +1,5 @@
 import fs from "fs";
 import path from "path";
-import {
-  batchEvaluateJobs,
-  batchGenerateCoverLetters,
-  evaluateJobScore,
-  generateCoverLetter,
-} from "./ai.ts";
 import { Job, MatchResult } from "../types.ts";
 
 type ApiRequest = {
@@ -26,6 +20,10 @@ const jobsFilePath = path.join(
 
 let sampleJobs: Job[] = [];
 
+async function getAiFunctions() {
+  return import("./ai.ts");
+}
+
 try {
   if (fs.existsSync(jobsFilePath)) {
     sampleJobs = JSON.parse(fs.readFileSync(jobsFilePath, "utf-8"));
@@ -37,11 +35,11 @@ try {
 export function healthHandler(_req: ApiRequest, res: ApiResponse) {
   const hasGemini = Boolean(
     process.env.GEMINI_API_KEY &&
-      process.env.GEMINI_API_KEY !== "MY_GEMINI_API_KEY",
+    process.env.GEMINI_API_KEY !== "MY_GEMINI_API_KEY",
   );
   const hasOpenRouter = Boolean(
     process.env.OPENROUTER_API_KEY &&
-      process.env.OPENROUTER_API_KEY.trim().length > 0,
+    process.env.OPENROUTER_API_KEY.trim().length > 0,
   );
 
   res.json({
@@ -65,6 +63,7 @@ export function jobsHandler(_req: ApiRequest, res: ApiResponse) {
 
 export async function scoreHandler(req: ApiRequest, res: ApiResponse) {
   try {
+    const { evaluateJobScore } = await getAiFunctions();
     const { resumeText, job } = req.body || {};
     if (!resumeText || !job) {
       return res
@@ -90,6 +89,7 @@ export async function scoreHandler(req: ApiRequest, res: ApiResponse) {
 
 export async function coverLetterHandler(req: ApiRequest, res: ApiResponse) {
   try {
+    const { generateCoverLetter } = await getAiFunctions();
     const { resumeText, job } = req.body || {};
     if (!resumeText || !job) {
       return res
@@ -114,6 +114,8 @@ export async function coverLetterHandler(req: ApiRequest, res: ApiResponse) {
 
 export async function runHandler(req: ApiRequest, res: ApiResponse) {
   try {
+    const { batchEvaluateJobs, batchGenerateCoverLetters } =
+      await getAiFunctions();
     const {
       resumeText,
       jobs: customJobs,
